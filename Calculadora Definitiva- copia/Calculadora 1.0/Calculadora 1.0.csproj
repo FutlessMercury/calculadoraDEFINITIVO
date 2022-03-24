@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Calculadora_1._0</RootNamespace>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="GemBox.Document" Version="33.0.1446" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="CalithaLib">
+      <HintPath>..\CalithaLib.dll</HintPath>
+    </Reference>
+    <Reference Include="GoldParserEngine">
+      <HintPath>..\GoldParserEngine.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
